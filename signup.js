@@ -33,7 +33,7 @@ const signuphandler = (event) =>{
                 const parent = document.getElementById("notification")
                 const div = document.createElement("div")
                 div.innerHTML = `
-                <p class="text-center mt-4 bg-success w-25 m-auto p-2 text-light" style="border-radius: 10rem;font-weight: 500;"><i class="fa fa-exclamation-circle"></i> Check Your mail for confirmation</p>
+                <p class="text-center mt-4 bg-primary-subtle w-25 m-auto p-2 text-light text-light-emphasis" style="font-weight: 500;"><i class="fa fa-exclamation-circle"></i> Check Your mail for confirmation</p>
                 `
                 parent.appendChild(div)
             
