@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.logo-img{
+    width: 90px;
+}
+.search-bar{
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10rem;
+    width: 500px;
+    background-color: #F7F9FA;
+}
+.nav-links{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.banner-container{
+    background-color: #F7F8FA;
+}
+.ban-txt{
+    box-shadow: 4px 4px 8px rgb(207, 206, 206);
+    background-color: white;
+}
+.ban-img{
+    width: 30%;
+    margin-top: 15px;
+}
+.ban-2-img{
+    width: 7%;
+}
+.form-input{
+    width: 35%;
+}
+.prof-img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.prof-img2{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.detail-img{
+    width: 60%;
+    height: 450px;
+}
+.profile-courses-image{
+    width: 20%;
+
+}
+#Description{
+    height: 200px;
+}
+.file-input-container {
+    position: relative;
+    margin-left: 110px;
+    margin-bottom: 30px;
+  }
+  
+  .custom-file-upload {
+    color: #fff;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #0056b3;
+  }
+  #notification{
+    position: fixed;
+    width: 1000px;
+    margin: 0 170px;
+    top: 0;
+  }
+
+@media only screen and (max-width:1024px){
+    nav{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .logo-img{
+        margin-bottom: 10px;
+    }
+    .search-bar{
+        width: 280px;
+        margin-bottom: 10px;
+    }
+    .nav-links{
+        margin-top: 10px;
+    }
+    .ban-txt{
+        box-shadow: none;
+        background-color: #F7F8FA;
+    }
+    .ban-img{
+        width: 50%;
+        margin-top: 0;
+    }
+    .teacher-img{
+        width: 100%;
+    }
+    .form-input{
+        width: 80%;
+    }
+}
